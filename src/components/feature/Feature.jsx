@@ -1,5 +1,5 @@
 import React from 'react';
-import '/feature.css';
+import './feature.css';
 const Feature = () => {
   return (
     <div>
@@ -8,5 +8,4 @@ const Feature = () => {
   )
 }
 
-export default Feature
-Feature
+export default Feature;
