@@ -3,9 +3,9 @@ import './article.css';
 
 const Article = ({imageUrl, date ,title}) => {
   return (
-    <div className='gpt3__blog-containr_article'>
-      <div className='gpt3__blog-containr_article-image'>
-        <img src={imageUrl} alt="blog image" />
+    <div className='gpt3__blog-container_article'>
+      <div className='gpt3__blog-container_article-image'>
+        <img src={imageUrl} alt="blog" />
       </div>
       <div className='gpt3__blog-container_article-content'>
         <div>
