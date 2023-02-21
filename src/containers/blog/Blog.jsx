@@ -1,4 +1,6 @@
 import React from 'react';
+import { Article } from '../../components';
+import {blog01,blog02,blog03,blog04,blog05} from './imports';
 import './blog.css';
 
 const Blog = () => {
@@ -10,13 +12,13 @@ const Blog = () => {
       </div>
       <div className='gpt3__blog-contanier'>
         <div className='gpt3__blog-container_groupA'>
-          Article
+          <Article imageUrl={blog01}/>
         </div>
         <div className='gpt3__blog-container_groupB'>
-        Article
-        Article
-        Article
-        Article
+          <Article imageUrl={blog02}/>
+          <Article imageUrl={blog03}/>
+          <Article imageUrl={blog04}/>
+          <Article imageUrl={blog05}/>
         </div>
       </div>
     </div>
