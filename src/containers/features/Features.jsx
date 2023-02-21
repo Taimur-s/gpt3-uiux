@@ -26,7 +26,7 @@ const Features = () => {
       </div>
       <div className='gpt3__featres-container'>
         {featuresData.map((item,index)=>
-        <Feature />
+        <Feature title={item.title} text={item.text} key={item.title + index}/>
         )}
       </div>
     </div>
